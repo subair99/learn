@@ -1,0 +1,44 @@
+🔐 Starting Secure Email Agent (Type 'exit' to quit)...
+
+[User]:  Please authenticate me. My email is julie@example.com and password is password123
+Agent: You have been successfully authenticated. Is there anything else I can assist you with?
+
+[User]: Great. Now check my inbox and tell me if I have any mail.
+Agent: You have a new email from Jane (jane@example.com):
+
+Body:
+"Hi Julie, I'm going to be in town next week and was wondering if we could grab a coffee? - best, Jane"
+
+Would you like to reply to this email or take any other action?
+
+[User]: yes
+
+⚠️  HITL INTERRUPT: The agent wants to send an email.
+To: jane@example.com
+Body: Hi Jane, that sounds great! Let me know what day and time work best for you. Looking forward to it! - Julie
+
+Do you approve this action? (yes/no): yes
+Agent: You have a new email from Jane (jane@example.com):
+
+Body:
+"Hi Julie, I'm going to be in town next week and was wondering if we could grab a coffee? - best, Jane"
+
+Would you like to reply to this email or take any other action?
+
+[User]: I will like to reply
+
+⚠️  HITL INTERRUPT: The agent wants to send an email.
+To: jane@example.com
+Body: Hi Jane, that sounds great! Let me know what day works best for you. Looking forward to it! - Julie
+
+Do you approve this action? (yes/no): yes
+Agent: You have a new email from Jane (jane@example.com):
+
+Body:
+"Hi Julie, I'm going to be in town next week and was wondering if we could grab a coffee? - best, Jane"
+
+Would you like to reply to this email or take any other action?
+
+[User]: check my email
+Agent: You have the same email from Jane (jane@example.com) in your inbox. There are no new messages. Would you like to proceed with
+replying to Jane's email now?
