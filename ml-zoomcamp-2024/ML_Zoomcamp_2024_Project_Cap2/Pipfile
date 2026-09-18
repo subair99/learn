@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.14.0"
+grpcio = "==1.64.0"
+tensorflow-serving-api = "==2.14.0"
+protobuf = "==4.25.0"
+numpy = "==1.23.5"
+pandas = "==2.1.4"
+pillow = "*"
+flask = "*"
+gunicorn = "*"
+requests = "*"
+keras-image-helper = "*"
+
+[dev-packages]
+notebook = "*"
+ipywidgets = "*"
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+tree = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.5"

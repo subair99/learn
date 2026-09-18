@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  breast_cancer_model:
+    image: brain_tumor_model:xception-v4-001
+  gateway:
+    image: brain_tumor_gateway:001
+    environment:
+      - TF_SERVING_HOST=brain_tumor_model:8500
+    ports:
+      - "9696:9696"
